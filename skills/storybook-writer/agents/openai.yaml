@@ -1,0 +1,6 @@
+interface:
+  display_name: "Storybook Writer"
+  short_description: "Create Storybook stories (CSF 3) for every React Native design system component"
+  default_prompt: "Use $storybook-writer to create complete Storybook stories for this component covering all meaningful visual states."
+policy:
+  allow_implicit_invocation: true

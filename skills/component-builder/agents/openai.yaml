@@ -1,0 +1,6 @@
+interface:
+  display_name: "Component Builder"
+  short_description: "Implement React Native atoms, molecules, and organisms following the design system"
+  default_prompt: "Use $component-builder to implement this component following the design system patterns, then hand off to $storybook-writer."
+policy:
+  allow_implicit_invocation: true
