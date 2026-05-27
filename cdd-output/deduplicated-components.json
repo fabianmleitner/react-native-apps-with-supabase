@@ -1,0 +1,2073 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-20T09:12:48Z",
+  "prototype_dir": "/Users/fabianleitner/Documents/GitHub/react-native-apps-with-supabase/docs/ui/prototypes/workout-tracker",
+  "files": [
+    {
+      "file": "auth/landing.html",
+      "file_hash": "5b6c0c057dff7a0c5f0dc926e9fcb627ddd8fbbd4097c7e36e6022fcbd932156",
+      "marked_file_hash": "dd6190847346e741baaedd76d85b48aa21f168323b4e40d63f79ab5475f74246",
+      "elements": [
+        {
+          "cdd_id": "org-main-001",
+          "source_file": "auth/landing.html",
+          "tag": "main",
+          "text": "",
+          "class": "screen",
+          "role": "",
+          "hash": "683b112386295316894c682d8cab8506027a581ba8d8cee8d016ebb3cd5c4583",
+          "child_tags": [
+            "section",
+            "section"
+          ],
+          "suggested_prefix": "org-main"
+        },
+        {
+          "cdd_id": "org-section-001",
+          "source_file": "auth/landing.html",
+          "tag": "section",
+          "text": "",
+          "class": "hero",
+          "role": "",
+          "hash": "83c11215cb3dea7c4c12ce119c79fd1f5f7f2838354731800e11478be83b597d",
+          "child_tags": [
+            "span",
+            "h1",
+            "p",
+            "article"
+          ],
+          "suggested_prefix": "org-section"
+        },
+        {
+          "cdd_id": "atm-text-001",
+          "source_file": "auth/landing.html",
+          "tag": "span",
+          "text": "Workout Tracker",
+          "class": "badge",
+          "role": "",
+          "hash": "baf328a8d49156ae36196f2f15dcdba1d9517db1d838f5d293f69d6ffe0cdfc1",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "atm-text-002",
+          "source_file": "auth/landing.html",
+          "tag": "h1",
+          "text": "Train smarter every week.",
+          "class": "",
+          "role": "",
+          "hash": "d7281ed2d1c1443e8628e7fe657ebd51de97a825c03c638fc9c22ab1da851972",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "atm-text-003",
+          "source_file": "auth/landing.html",
+          "tag": "p",
+          "text": "Plan focused sessions, track effort, and keep your routine visible from the first screen.",
+          "class": "",
+          "role": "",
+          "hash": "f37e61cd531188372f22bdfac0ccae2df913b41aa610f68bff5eea993f152277",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "mol-card-001",
+          "source_file": "auth/landing.html",
+          "tag": "article",
+          "text": "",
+          "class": "benefit-card",
+          "role": "",
+          "hash": "6b94d6208ca99602ba39cfeddb43b5862f7c0b87a99635de814265fd37a94ab2",
+          "child_tags": [
+            "h2",
+            "p"
+          ],
+          "suggested_prefix": "mol-card"
+        },
+        {
+          "cdd_id": "atm-text-004",
+          "source_file": "auth/landing.html",
+          "tag": "h2",
+          "text": "Today at a glance",
+          "class": "",
+          "role": "",
+          "hash": "4b988338eb003cc8f4fdb4bc124912855c456db6130fa833aebf186f17eea98d",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "atm-text-005",
+          "source_file": "auth/landing.html",
+          "tag": "p",
+          "text": "Strength, mobility, and recovery stats stay grouped for quick decisions.",
+          "class": "",
+          "role": "",
+          "hash": "30e29f990056f2b0ee0e57500f87e2e0c02bf2f198953a0a1e1b1115dd2d9ca4",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "org-section-002",
+          "source_file": "auth/landing.html",
+          "tag": "section",
+          "text": "",
+          "class": "actions",
+          "role": "",
+          "hash": "5f6616f4f6102e5282d56bc357db82411d5047867e0eff24b29e38f75a8fe6e2",
+          "child_tags": [
+            "a",
+            "a"
+          ],
+          "suggested_prefix": "org-section"
+        },
+        {
+          "cdd_id": "atm-link-001",
+          "source_file": "auth/landing.html",
+          "tag": "a",
+          "text": "Create account",
+          "class": "button primary",
+          "role": "",
+          "hash": "cabc1770086a83cfd951c0684e63a7dbdeba42ad9acec23d918f13789ece593a",
+          "child_tags": [],
+          "suggested_prefix": "atm-link"
+        },
+        {
+          "cdd_id": "atm-link-002",
+          "source_file": "auth/landing.html",
+          "tag": "a",
+          "text": "Log in",
+          "class": "button secondary",
+          "role": "",
+          "hash": "f034a01b5d68dcf1b9d37133aed06c521dd5b42657a4afcb4a2fcaf283bb19dc",
+          "child_tags": [],
+          "suggested_prefix": "atm-link"
+        }
+      ]
+    },
+    {
+      "file": "auth/login.html",
+      "file_hash": "2f71e0d3c845cf74559922480a269ca49a1b92dadb7e0ba13704c24a3db137b2",
+      "marked_file_hash": "bf1fe7c19d5b0b72b081df3eef0ae68ef1e21a401c0d795792782d942b697a3e",
+      "elements": [
+        {
+          "cdd_id": "org-main-002",
+          "source_file": "auth/login.html",
+          "tag": "main",
+          "text": "",
+          "class": "",
+          "role": "",
+          "hash": "c785100db0e5f5362b7e0d8ce0c04243d84a52e28cba49def34e1960e429fd1b",
+          "child_tags": [
+            "header",
+            "form"
+          ],
+          "suggested_prefix": "org-main"
+        },
+        {
+          "cdd_id": "org-header-001",
+          "source_file": "auth/login.html",
+          "tag": "header",
+          "text": "",
+          "class": "",
+          "role": "",
+          "hash": "720067327c0cabc8d694425b0bc996f7d65fd926994a80aab0aa437df034d97b",
+          "child_tags": [
+            "h1",
+            "p"
+          ],
+          "suggested_prefix": "org-header"
+        },
+        {
+          "cdd_id": "atm-text-006",
+          "source_file": "auth/login.html",
+          "tag": "h1",
+          "text": "Welcome back",
+          "class": "",
+          "role": "",
+          "hash": "1f107359ed5bf9602f6e094bed551927caaeb0a03c02bf65beaa2fb8bafaaaef",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "atm-text-007",
+          "source_file": "auth/login.html",
+          "tag": "p",
+          "text": "Continue your plan and review today's training focus.",
+          "class": "",
+          "role": "",
+          "hash": "914e6b1623e40f8ca06c9faa515fad420f5d761fd941e90d999466814e87fb04",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "org-form-001",
+          "source_file": "auth/login.html",
+          "tag": "form",
+          "text": "",
+          "class": "",
+          "role": "",
+          "hash": "c763109349067334b767893ef8e15708dee09afd67728362336a4012b94a8b9d",
+          "child_tags": [
+            "div",
+            "div",
+            "button",
+            "a"
+          ],
+          "suggested_prefix": "org-form"
+        },
+        {
+          "cdd_id": "mol-field-001",
+          "source_file": "auth/login.html",
+          "tag": "div",
+          "text": "",
+          "class": "field",
+          "role": "",
+          "hash": "f9ee67143993a3875b7586b4a1beb698f8aad93f1688238a9f4e57aa2962a63c",
+          "child_tags": [
+            "label",
+            "input"
+          ],
+          "suggested_prefix": "mol-field"
+        },
+        {
+          "cdd_id": "atm-label-001",
+          "source_file": "auth/login.html",
+          "tag": "label",
+          "text": "Email",
+          "class": "",
+          "role": "",
+          "hash": "1a7152d936e10467f7a00a74cc921c3e14213f900119a4e6576bb29fb6b793bf",
+          "child_tags": [],
+          "suggested_prefix": "atm-label"
+        },
+        {
+          "cdd_id": "atm-input-001",
+          "source_file": "auth/login.html",
+          "tag": "input",
+          "text": "",
+          "class": "",
+          "role": "",
+          "hash": "01961919f91e1cb5b0e760e4f143c5682ea0f2ce4cacb5c98bbc792c9adbf5b1",
+          "child_tags": [],
+          "suggested_prefix": "atm-input"
+        },
+        {
+          "cdd_id": "mol-field-002",
+          "source_file": "auth/login.html",
+          "tag": "div",
+          "text": "",
+          "class": "field",
+          "role": "",
+          "hash": "f9ee67143993a3875b7586b4a1beb698f8aad93f1688238a9f4e57aa2962a63c",
+          "child_tags": [
+            "label",
+            "input"
+          ],
+          "suggested_prefix": "mol-field"
+        },
+        {
+          "cdd_id": "atm-label-002",
+          "source_file": "auth/login.html",
+          "tag": "label",
+          "text": "Password",
+          "class": "",
+          "role": "",
+          "hash": "a41994a1c1819d8615ae265a7091bb710c579db01f9dfd4ade36ba4e6a78b98f",
+          "child_tags": [],
+          "suggested_prefix": "atm-label"
+        },
+        {
+          "cdd_id": "atm-input-002",
+          "source_file": "auth/login.html",
+          "tag": "input",
+          "text": "",
+          "class": "",
+          "role": "",
+          "hash": "4871a246538b570ed61dd02ce46b18c94a964720951072eb6a806075f0e81fa9",
+          "child_tags": [],
+          "suggested_prefix": "atm-input"
+        },
+        {
+          "cdd_id": "atm-btn-001",
+          "source_file": "auth/login.html",
+          "tag": "button",
+          "text": "Log in",
+          "class": "primary",
+          "role": "",
+          "hash": "5a55a69fd8987fcb230020506bdb2a77c8a6ed3d9a7b45d662e588ba8f0d06c4",
+          "child_tags": [],
+          "suggested_prefix": "atm-btn"
+        },
+        {
+          "cdd_id": "atm-link-003",
+          "source_file": "auth/login.html",
+          "tag": "a",
+          "text": "Create account",
+          "class": "button secondary",
+          "role": "",
+          "hash": "fee9880aa985ca0278ca8c859420bbcd9d88709312d96d627778816faf275b20",
+          "child_tags": [],
+          "suggested_prefix": "atm-link"
+        }
+      ]
+    },
+    {
+      "file": "auth/registration.html",
+      "file_hash": "4a2a354cef12be63c7f9e0b4e5074e5cc58871c0a846026ed78130a3d70d80ee",
+      "marked_file_hash": "fe10bd06c775e088f29cc45697d3c71ee5c07125239d2209eeee89def300c5d5",
+      "elements": [
+        {
+          "cdd_id": "org-main-003",
+          "source_file": "auth/registration.html",
+          "tag": "main",
+          "text": "",
+          "class": "",
+          "role": "",
+          "hash": "c785100db0e5f5362b7e0d8ce0c04243d84a52e28cba49def34e1960e429fd1b",
+          "child_tags": [
+            "header",
+            "form"
+          ],
+          "suggested_prefix": "org-main"
+        },
+        {
+          "cdd_id": "org-header-002",
+          "source_file": "auth/registration.html",
+          "tag": "header",
+          "text": "",
+          "class": "",
+          "role": "",
+          "hash": "720067327c0cabc8d694425b0bc996f7d65fd926994a80aab0aa437df034d97b",
+          "child_tags": [
+            "h1",
+            "p"
+          ],
+          "suggested_prefix": "org-header"
+        },
+        {
+          "cdd_id": "atm-text-008",
+          "source_file": "auth/registration.html",
+          "tag": "h1",
+          "text": "Create your plan",
+          "class": "",
+          "role": "",
+          "hash": "cb8afd102c5bd45a83acd5ce61f8b84c21ae4d66b4c503e609ae990fdfbc5c4a",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "atm-text-009",
+          "source_file": "auth/registration.html",
+          "tag": "p",
+          "text": "Set up your profile and start tracking your next workout.",
+          "class": "",
+          "role": "",
+          "hash": "e1c0b3fd8db3b91fd303818f9206a78e3925db38815f52e4711fb37e638cab19",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "org-form-002",
+          "source_file": "auth/registration.html",
+          "tag": "form",
+          "text": "",
+          "class": "",
+          "role": "",
+          "hash": "ff3d3e3a0e15c7b19db25aaeb082ce792e71becde261f5e593c79eb6ee5c8849",
+          "child_tags": [
+            "div",
+            "div",
+            "div",
+            "button",
+            "a"
+          ],
+          "suggested_prefix": "org-form"
+        },
+        {
+          "cdd_id": "mol-field-003",
+          "source_file": "auth/registration.html",
+          "tag": "div",
+          "text": "",
+          "class": "field",
+          "role": "",
+          "hash": "f9ee67143993a3875b7586b4a1beb698f8aad93f1688238a9f4e57aa2962a63c",
+          "child_tags": [
+            "label",
+            "input"
+          ],
+          "suggested_prefix": "mol-field"
+        },
+        {
+          "cdd_id": "atm-label-003",
+          "source_file": "auth/registration.html",
+          "tag": "label",
+          "text": "Name",
+          "class": "",
+          "role": "",
+          "hash": "c4d66dde1053f6924117ec7085c53ba7b9c840a4bac001dad8a6f23e8fbb4594",
+          "child_tags": [],
+          "suggested_prefix": "atm-label"
+        },
+        {
+          "cdd_id": "atm-input-003",
+          "source_file": "auth/registration.html",
+          "tag": "input",
+          "text": "",
+          "class": "",
+          "role": "",
+          "hash": "d1dd201ac4240d45317824722f91fe8740a80be9cb850fb45e3b10379b936114",
+          "child_tags": [],
+          "suggested_prefix": "atm-input"
+        },
+        {
+          "cdd_id": "mol-field-004",
+          "source_file": "auth/registration.html",
+          "tag": "div",
+          "text": "",
+          "class": "field",
+          "role": "",
+          "hash": "f9ee67143993a3875b7586b4a1beb698f8aad93f1688238a9f4e57aa2962a63c",
+          "child_tags": [
+            "label",
+            "input"
+          ],
+          "suggested_prefix": "mol-field"
+        },
+        {
+          "cdd_id": "atm-label-004",
+          "source_file": "auth/registration.html",
+          "tag": "label",
+          "text": "Email",
+          "class": "",
+          "role": "",
+          "hash": "1a7152d936e10467f7a00a74cc921c3e14213f900119a4e6576bb29fb6b793bf",
+          "child_tags": [],
+          "suggested_prefix": "atm-label"
+        },
+        {
+          "cdd_id": "atm-input-004",
+          "source_file": "auth/registration.html",
+          "tag": "input",
+          "text": "",
+          "class": "",
+          "role": "",
+          "hash": "01961919f91e1cb5b0e760e4f143c5682ea0f2ce4cacb5c98bbc792c9adbf5b1",
+          "child_tags": [],
+          "suggested_prefix": "atm-input"
+        },
+        {
+          "cdd_id": "mol-field-005",
+          "source_file": "auth/registration.html",
+          "tag": "div",
+          "text": "",
+          "class": "field",
+          "role": "",
+          "hash": "f9ee67143993a3875b7586b4a1beb698f8aad93f1688238a9f4e57aa2962a63c",
+          "child_tags": [
+            "label",
+            "input"
+          ],
+          "suggested_prefix": "mol-field"
+        },
+        {
+          "cdd_id": "atm-label-005",
+          "source_file": "auth/registration.html",
+          "tag": "label",
+          "text": "Password",
+          "class": "",
+          "role": "",
+          "hash": "a41994a1c1819d8615ae265a7091bb710c579db01f9dfd4ade36ba4e6a78b98f",
+          "child_tags": [],
+          "suggested_prefix": "atm-label"
+        },
+        {
+          "cdd_id": "atm-input-005",
+          "source_file": "auth/registration.html",
+          "tag": "input",
+          "text": "",
+          "class": "",
+          "role": "",
+          "hash": "194cd85f9123c8a0613f3e17a743046cffab9eb0e5884828af5ff7784f153579",
+          "child_tags": [],
+          "suggested_prefix": "atm-input"
+        },
+        {
+          "cdd_id": "atm-btn-002",
+          "source_file": "auth/registration.html",
+          "tag": "button",
+          "text": "Create account",
+          "class": "primary",
+          "role": "",
+          "hash": "2950e10a771ed4163d3b86fcaddc4c485f3b58c228173a2005ac2abab47885c2",
+          "child_tags": [],
+          "suggested_prefix": "atm-btn"
+        },
+        {
+          "cdd_id": "atm-link-004",
+          "source_file": "auth/registration.html",
+          "tag": "a",
+          "text": "I already have an account",
+          "class": "button secondary",
+          "role": "",
+          "hash": "1114d4a20d809d243e6957a628150ade23d5ba197fe99a57b0728c1f1661590e",
+          "child_tags": [],
+          "suggested_prefix": "atm-link"
+        }
+      ]
+    },
+    {
+      "file": "overview/overview.html",
+      "file_hash": "565530ea7aa3ad2659804ec6ba94c930a0112f3af43793d4d1e0922a910cd120",
+      "marked_file_hash": "81012e16122d0e7f6e3e33db0fd099e9e59df7ff634a8c39a364a236ed27a824",
+      "elements": [
+        {
+          "cdd_id": "org-main-004",
+          "source_file": "overview/overview.html",
+          "tag": "main",
+          "text": "",
+          "class": "",
+          "role": "",
+          "hash": "474606776ed9104fb98315d572f1d5d41b3bb61b2e50f9e7a180f263580003b0",
+          "child_tags": [
+            "header",
+            "section",
+            "section"
+          ],
+          "suggested_prefix": "org-main"
+        },
+        {
+          "cdd_id": "org-header-003",
+          "source_file": "overview/overview.html",
+          "tag": "header",
+          "text": "",
+          "class": "",
+          "role": "",
+          "hash": "7c2b322df429362ee1c181f792d0c7c5df56307e2027c0fa66cdcb91c2f94260",
+          "child_tags": [
+            "div",
+            "div"
+          ],
+          "suggested_prefix": "org-header"
+        },
+        {
+          "cdd_id": "mol-block-001",
+          "source_file": "overview/overview.html",
+          "tag": "div",
+          "text": "",
+          "class": "",
+          "role": "",
+          "hash": "9a3ec3b2d9bbdd1d630606c7759c41271dea350aefb2bc8eff98e37403acceed",
+          "child_tags": [
+            "p",
+            "h1"
+          ],
+          "suggested_prefix": "mol-block"
+        },
+        {
+          "cdd_id": "atm-text-010",
+          "source_file": "overview/overview.html",
+          "tag": "p",
+          "text": "Today",
+          "class": "",
+          "role": "",
+          "hash": "bb08cd6b57adca3d48bc2a5a6e16534952a0bc2b8a2dd5386ebf38001d6c7449",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "atm-text-011",
+          "source_file": "overview/overview.html",
+          "tag": "h1",
+          "text": "Overview",
+          "class": "",
+          "role": "",
+          "hash": "b70062d6ee141706fad8cfa816f6390d1fed9b606122a06cb800072c017edfa9",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "mol-block-002",
+          "source_file": "overview/overview.html",
+          "tag": "div",
+          "text": "A",
+          "class": "avatar",
+          "role": "",
+          "hash": "f7f14a8a2ea7f0b6d36c7c4463c4fd9842edfe68226efc685a871fc73cb43848",
+          "child_tags": [],
+          "suggested_prefix": "mol-block"
+        },
+        {
+          "cdd_id": "org-section-003",
+          "source_file": "overview/overview.html",
+          "tag": "section",
+          "text": "",
+          "class": "stats",
+          "role": "",
+          "hash": "b124d879da6fd5d6b0bc3cc89fc7552fbb4977512b477bd82c940e948e37f4e5",
+          "child_tags": [
+            "article",
+            "article",
+            "article"
+          ],
+          "suggested_prefix": "org-section"
+        },
+        {
+          "cdd_id": "mol-card-002",
+          "source_file": "overview/overview.html",
+          "tag": "article",
+          "text": "",
+          "class": "stat-card",
+          "role": "",
+          "hash": "0713a6b6636a35af2fa923929c7d0957cf01e488c368a07b6ed405a7370052a2",
+          "child_tags": [
+            "strong",
+            "p"
+          ],
+          "suggested_prefix": "mol-card"
+        },
+        {
+          "cdd_id": "atm-text-012",
+          "source_file": "overview/overview.html",
+          "tag": "p",
+          "text": "Minutes",
+          "class": "",
+          "role": "",
+          "hash": "61687dab50003c0ee436c9ebf4e551cc3bcbe8afd0e389d0a4dd4e751847ce9e",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "mol-card-003",
+          "source_file": "overview/overview.html",
+          "tag": "article",
+          "text": "",
+          "class": "stat-card",
+          "role": "",
+          "hash": "0713a6b6636a35af2fa923929c7d0957cf01e488c368a07b6ed405a7370052a2",
+          "child_tags": [
+            "strong",
+            "p"
+          ],
+          "suggested_prefix": "mol-card"
+        },
+        {
+          "cdd_id": "atm-text-013",
+          "source_file": "overview/overview.html",
+          "tag": "p",
+          "text": "Sets",
+          "class": "",
+          "role": "",
+          "hash": "347c8998f682ac1a2e9996a42581ba0f1a3eb839a75c975bc8d459732387a895",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "mol-card-004",
+          "source_file": "overview/overview.html",
+          "tag": "article",
+          "text": "",
+          "class": "stat-card",
+          "role": "",
+          "hash": "0713a6b6636a35af2fa923929c7d0957cf01e488c368a07b6ed405a7370052a2",
+          "child_tags": [
+            "strong",
+            "p"
+          ],
+          "suggested_prefix": "mol-card"
+        },
+        {
+          "cdd_id": "atm-text-014",
+          "source_file": "overview/overview.html",
+          "tag": "p",
+          "text": "Recovery",
+          "class": "",
+          "role": "",
+          "hash": "0e9a713d711e7aaa25a580664f96ff74c8fd65630a0e2d8f8ef97ad064249c07",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "org-section-004",
+          "source_file": "overview/overview.html",
+          "tag": "section",
+          "text": "",
+          "class": "workouts",
+          "role": "",
+          "hash": "865b1910038ca5500edfc66ad42537e825a64e28b34d17b1c22f21bb3807ac58",
+          "child_tags": [
+            "div",
+            "article",
+            "article"
+          ],
+          "suggested_prefix": "org-section"
+        },
+        {
+          "cdd_id": "mol-block-003",
+          "source_file": "overview/overview.html",
+          "tag": "div",
+          "text": "",
+          "class": "row",
+          "role": "",
+          "hash": "05ee7058116373c8f369df3c4fe9a4df8199f649da184855da14686bef175732",
+          "child_tags": [
+            "h2",
+            "span"
+          ],
+          "suggested_prefix": "mol-block"
+        },
+        {
+          "cdd_id": "atm-text-015",
+          "source_file": "overview/overview.html",
+          "tag": "h2",
+          "text": "Next workouts",
+          "class": "",
+          "role": "",
+          "hash": "36e6eda9320037627636ccd75185d0662d4d56d20b9e2e96a7c278e17e902e04",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "atm-text-016",
+          "source_file": "overview/overview.html",
+          "tag": "span",
+          "text": "Week 12",
+          "class": "pill",
+          "role": "",
+          "hash": "35ca4d813455cf6439ce57cb71e62767637400fc09f275b0759672c9ed16a46f",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "mol-card-005",
+          "source_file": "overview/overview.html",
+          "tag": "article",
+          "text": "",
+          "class": "workout-card",
+          "role": "",
+          "hash": "3b6c0f5fe8ff9950dd5905f58edce52508c906d256bcc88dd987e546ed5f6269",
+          "child_tags": [
+            "div",
+            "p",
+            "button"
+          ],
+          "suggested_prefix": "mol-card"
+        },
+        {
+          "cdd_id": "mol-block-004",
+          "source_file": "overview/overview.html",
+          "tag": "div",
+          "text": "",
+          "class": "row",
+          "role": "",
+          "hash": "d116b9044a6b08a95141bf9fdd2dfe62b897b075f165738ac9770fab407a2f36",
+          "child_tags": [
+            "h3",
+            "span"
+          ],
+          "suggested_prefix": "mol-block"
+        },
+        {
+          "cdd_id": "atm-text-017",
+          "source_file": "overview/overview.html",
+          "tag": "h3",
+          "text": "Morning Strength",
+          "class": "",
+          "role": "",
+          "hash": "88f6c4cf4d56b1c96c3db43844cc19fa91179ad8100cda43d78fd73906a392b3",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "atm-text-018",
+          "source_file": "overview/overview.html",
+          "tag": "span",
+          "text": "45 min",
+          "class": "pill",
+          "role": "",
+          "hash": "e53dc78bdd7df153e95db267da36849b003e7df3cf9edf5345a95f57f70493b8",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "atm-text-019",
+          "source_file": "overview/overview.html",
+          "tag": "p",
+          "text": "Squats, presses, and posterior chain accessories.",
+          "class": "",
+          "role": "",
+          "hash": "ee93688166996ec76b69d2ba65c99439e66e5838b3f6a3453df1e74a231819eb",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "atm-btn-003",
+          "source_file": "overview/overview.html",
+          "tag": "button",
+          "text": "Start workout",
+          "class": "",
+          "role": "",
+          "hash": "c041573d997d60d50f143e220d1a3428ff5ddb63bfac3ab2eec76f88081a7931",
+          "child_tags": [],
+          "suggested_prefix": "atm-btn"
+        },
+        {
+          "cdd_id": "mol-card-006",
+          "source_file": "overview/overview.html",
+          "tag": "article",
+          "text": "",
+          "class": "workout-card",
+          "role": "",
+          "hash": "3b6c0f5fe8ff9950dd5905f58edce52508c906d256bcc88dd987e546ed5f6269",
+          "child_tags": [
+            "div",
+            "p",
+            "button"
+          ],
+          "suggested_prefix": "mol-card"
+        },
+        {
+          "cdd_id": "mol-block-005",
+          "source_file": "overview/overview.html",
+          "tag": "div",
+          "text": "",
+          "class": "row",
+          "role": "",
+          "hash": "d116b9044a6b08a95141bf9fdd2dfe62b897b075f165738ac9770fab407a2f36",
+          "child_tags": [
+            "h3",
+            "span"
+          ],
+          "suggested_prefix": "mol-block"
+        },
+        {
+          "cdd_id": "atm-text-020",
+          "source_file": "overview/overview.html",
+          "tag": "h3",
+          "text": "Mobility Reset",
+          "class": "",
+          "role": "",
+          "hash": "f33a8958d56329193da7dfcfc7ad9559e1c72c8dc518a38d8cb740ed3b2ee79d",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "atm-text-021",
+          "source_file": "overview/overview.html",
+          "tag": "span",
+          "text": "20 min",
+          "class": "pill",
+          "role": "",
+          "hash": "eb1c8eff55f97def730deb66d9a03043516a26c6ad1434d90d9a7d7eab0c050e",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "atm-text-022",
+          "source_file": "overview/overview.html",
+          "tag": "p",
+          "text": "Hips, shoulders, and controlled breathing.",
+          "class": "",
+          "role": "",
+          "hash": "a7670f90e9ff379474ef89d5b27011ad89fd9ddde9785d20c604c643122e9eeb",
+          "child_tags": [],
+          "suggested_prefix": "atm-text"
+        },
+        {
+          "cdd_id": "atm-btn-004",
+          "source_file": "overview/overview.html",
+          "tag": "button",
+          "text": "Start workout",
+          "class": "",
+          "role": "",
+          "hash": "c041573d997d60d50f143e220d1a3428ff5ddb63bfac3ab2eec76f88081a7931",
+          "child_tags": [],
+          "suggested_prefix": "atm-btn"
+        },
+        {
+          "cdd_id": "org-nav-001",
+          "source_file": "overview/overview.html",
+          "tag": "nav",
+          "text": "",
+          "class": "",
+          "role": "",
+          "hash": "2b1442ea419a9cdce35d768c710746e93eab84a99e05765e0c58f233caba73ed",
+          "child_tags": [
+            "a",
+            "a",
+            "a"
+          ],
+          "suggested_prefix": "org-nav"
+        },
+        {
+          "cdd_id": "atm-link-005",
+          "source_file": "overview/overview.html",
+          "tag": "a",
+          "text": "Home",
+          "class": "",
+          "role": "",
+          "hash": "c5a7ef98230c07499647670b2657f2085fc11253b3a0b385e1edd5a111224a30",
+          "child_tags": [],
+          "suggested_prefix": "atm-link"
+        },
+        {
+          "cdd_id": "atm-link-006",
+          "source_file": "overview/overview.html",
+          "tag": "a",
+          "text": "Plan",
+          "class": "",
+          "role": "",
+          "hash": "b63db65b799ea279a333f9f08537b8fa4eba3e841e306d02a84bbbb99e53725c",
+          "child_tags": [],
+          "suggested_prefix": "atm-link"
+        },
+        {
+          "cdd_id": "atm-link-007",
+          "source_file": "overview/overview.html",
+          "tag": "a",
+          "text": "Profile",
+          "class": "",
+          "role": "",
+          "hash": "2c6234b0a1e0810c3f2bc537ff5ae98698dd9119df235478dc19117b2c9b2729",
+          "child_tags": [],
+          "suggested_prefix": "atm-link"
+        }
+      ]
+    }
+  ],
+  "deduplication": {
+    "components": [
+      {
+        "canonical_cdd_id": "atm-input-001",
+        "hash": "01961919f91e1cb5b0e760e4f143c5682ea0f2ce4cacb5c98bbc792c9adbf5b1",
+        "source_file": "auth/login.html",
+        "tag": "input",
+        "text": "",
+        "class": "",
+        "suggested_prefix": "atm-input",
+        "duplicate_cdd_ids": [
+          "atm-input-004"
+        ],
+        "classification": "atom",
+        "component_name": "TextInputFieldControl",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "mol-block-003",
+        "hash": "05ee7058116373c8f369df3c4fe9a4df8199f649da184855da14686bef175732",
+        "source_file": "overview/overview.html",
+        "tag": "div",
+        "text": "",
+        "class": "row",
+        "suggested_prefix": "mol-block",
+        "duplicate_cdd_ids": [],
+        "classification": "molecule",
+        "component_name": "InlineGroup",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "text": "Text",
+          "actions": "Pressable"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "mol-card-002",
+        "hash": "0713a6b6636a35af2fa923929c7d0957cf01e488c368a07b6ed405a7370052a2",
+        "source_file": "overview/overview.html",
+        "tag": "article",
+        "text": "",
+        "class": "stat-card",
+        "suggested_prefix": "mol-card",
+        "duplicate_cdd_ids": [
+          "mol-card-003",
+          "mol-card-004"
+        ],
+        "classification": "molecule",
+        "component_name": "StatCard",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "text": "Text",
+          "actions": "Pressable"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-014",
+        "hash": "0e9a713d711e7aaa25a580664f96ff74c8fd65630a0e2d8f8ef97ad064249c07",
+        "source_file": "overview/overview.html",
+        "tag": "p",
+        "text": "Recovery",
+        "class": "",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "BodyText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-link-004",
+        "hash": "1114d4a20d809d243e6957a628150ade23d5ba197fe99a57b0728c1f1661590e",
+        "source_file": "auth/registration.html",
+        "tag": "a",
+        "text": "I already have an account",
+        "class": "button secondary",
+        "suggested_prefix": "atm-link",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "LinkButton",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-input-005",
+        "hash": "194cd85f9123c8a0613f3e17a743046cffab9eb0e5884828af5ff7784f153579",
+        "source_file": "auth/registration.html",
+        "tag": "input",
+        "text": "",
+        "class": "",
+        "suggested_prefix": "atm-input",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "TextInputFieldControl",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-label-001",
+        "hash": "1a7152d936e10467f7a00a74cc921c3e14213f900119a4e6576bb29fb6b793bf",
+        "source_file": "auth/login.html",
+        "tag": "label",
+        "text": "Email",
+        "class": "",
+        "suggested_prefix": "atm-label",
+        "duplicate_cdd_ids": [
+          "atm-label-004"
+        ],
+        "classification": "atom",
+        "component_name": "FieldLabel",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-006",
+        "hash": "1f107359ed5bf9602f6e094bed551927caaeb0a03c02bf65beaa2fb8bafaaaef",
+        "source_file": "auth/login.html",
+        "tag": "h1",
+        "text": "Welcome back",
+        "class": "",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "HeadingText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-btn-002",
+        "hash": "2950e10a771ed4163d3b86fcaddc4c485f3b58c228173a2005ac2abab47885c2",
+        "source_file": "auth/registration.html",
+        "tag": "button",
+        "text": "Create account",
+        "class": "primary",
+        "suggested_prefix": "atm-btn",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "Button",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "org-nav-001",
+        "hash": "2b1442ea419a9cdce35d768c710746e93eab84a99e05765e0c58f233caba73ed",
+        "source_file": "overview/overview.html",
+        "tag": "nav",
+        "text": "",
+        "class": "",
+        "suggested_prefix": "org-nav",
+        "duplicate_cdd_ids": [],
+        "classification": "organism",
+        "component_name": "BottomNavigation",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "layout": "ScrollView | SafeAreaView"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-link-007",
+        "hash": "2c6234b0a1e0810c3f2bc537ff5ae98698dd9119df235478dc19117b2c9b2729",
+        "source_file": "overview/overview.html",
+        "tag": "a",
+        "text": "Profile",
+        "class": "",
+        "suggested_prefix": "atm-link",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "TextLink",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-005",
+        "hash": "30e29f990056f2b0ee0e57500f87e2e0c02bf2f198953a0a1e1b1115dd2d9ca4",
+        "source_file": "auth/landing.html",
+        "tag": "p",
+        "text": "Strength, mobility, and recovery stats stay grouped for quick decisions.",
+        "class": "",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "BodyText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-013",
+        "hash": "347c8998f682ac1a2e9996a42581ba0f1a3eb839a75c975bc8d459732387a895",
+        "source_file": "overview/overview.html",
+        "tag": "p",
+        "text": "Sets",
+        "class": "",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "BodyText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-016",
+        "hash": "35ca4d813455cf6439ce57cb71e62767637400fc09f275b0759672c9ed16a46f",
+        "source_file": "overview/overview.html",
+        "tag": "span",
+        "text": "Week 12",
+        "class": "pill",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "BadgeText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-015",
+        "hash": "36e6eda9320037627636ccd75185d0662d4d56d20b9e2e96a7c278e17e902e04",
+        "source_file": "overview/overview.html",
+        "tag": "h2",
+        "text": "Next workouts",
+        "class": "",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "HeadingText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "mol-card-005",
+        "hash": "3b6c0f5fe8ff9950dd5905f58edce52508c906d256bcc88dd987e546ed5f6269",
+        "source_file": "overview/overview.html",
+        "tag": "article",
+        "text": "",
+        "class": "workout-card",
+        "suggested_prefix": "mol-card",
+        "duplicate_cdd_ids": [
+          "mol-card-006"
+        ],
+        "classification": "molecule",
+        "component_name": "WorkoutCard",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "text": "Text",
+          "actions": "Pressable"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "org-main-004",
+        "hash": "474606776ed9104fb98315d572f1d5d41b3bb61b2e50f9e7a180f263580003b0",
+        "source_file": "overview/overview.html",
+        "tag": "main",
+        "text": "",
+        "class": "",
+        "suggested_prefix": "org-main",
+        "duplicate_cdd_ids": [],
+        "classification": "organism",
+        "component_name": "ScreenShell",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "layout": "ScrollView | SafeAreaView"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-input-002",
+        "hash": "4871a246538b570ed61dd02ce46b18c94a964720951072eb6a806075f0e81fa9",
+        "source_file": "auth/login.html",
+        "tag": "input",
+        "text": "",
+        "class": "",
+        "suggested_prefix": "atm-input",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "TextInputFieldControl",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-004",
+        "hash": "4b988338eb003cc8f4fdb4bc124912855c456db6130fa833aebf186f17eea98d",
+        "source_file": "auth/landing.html",
+        "tag": "h2",
+        "text": "Today at a glance",
+        "class": "",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "HeadingText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-btn-001",
+        "hash": "5a55a69fd8987fcb230020506bdb2a77c8a6ed3d9a7b45d662e588ba8f0d06c4",
+        "source_file": "auth/login.html",
+        "tag": "button",
+        "text": "Log in",
+        "class": "primary",
+        "suggested_prefix": "atm-btn",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "Button",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "org-section-002",
+        "hash": "5f6616f4f6102e5282d56bc357db82411d5047867e0eff24b29e38f75a8fe6e2",
+        "source_file": "auth/landing.html",
+        "tag": "section",
+        "text": "",
+        "class": "actions",
+        "suggested_prefix": "org-section",
+        "duplicate_cdd_ids": [],
+        "classification": "organism",
+        "component_name": "ScreenSection",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "layout": "ScrollView | SafeAreaView"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-012",
+        "hash": "61687dab50003c0ee436c9ebf4e551cc3bcbe8afd0e389d0a4dd4e751847ce9e",
+        "source_file": "overview/overview.html",
+        "tag": "p",
+        "text": "Minutes",
+        "class": "",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "BodyText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "org-main-001",
+        "hash": "683b112386295316894c682d8cab8506027a581ba8d8cee8d016ebb3cd5c4583",
+        "source_file": "auth/landing.html",
+        "tag": "main",
+        "text": "",
+        "class": "screen",
+        "suggested_prefix": "org-main",
+        "duplicate_cdd_ids": [],
+        "classification": "organism",
+        "component_name": "ScreenShell",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "layout": "ScrollView | SafeAreaView"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "mol-card-001",
+        "hash": "6b94d6208ca99602ba39cfeddb43b5862f7c0b87a99635de814265fd37a94ab2",
+        "source_file": "auth/landing.html",
+        "tag": "article",
+        "text": "",
+        "class": "benefit-card",
+        "suggested_prefix": "mol-card",
+        "duplicate_cdd_ids": [],
+        "classification": "molecule",
+        "component_name": "BenefitCard",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "text": "Text",
+          "actions": "Pressable"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "org-header-001",
+        "hash": "720067327c0cabc8d694425b0bc996f7d65fd926994a80aab0aa437df034d97b",
+        "source_file": "auth/login.html",
+        "tag": "header",
+        "text": "",
+        "class": "",
+        "suggested_prefix": "org-header",
+        "duplicate_cdd_ids": [
+          "org-header-002"
+        ],
+        "classification": "organism",
+        "component_name": "ScreenHeader",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "layout": "ScrollView | SafeAreaView"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "org-header-003",
+        "hash": "7c2b322df429362ee1c181f792d0c7c5df56307e2027c0fa66cdcb91c2f94260",
+        "source_file": "overview/overview.html",
+        "tag": "header",
+        "text": "",
+        "class": "",
+        "suggested_prefix": "org-header",
+        "duplicate_cdd_ids": [],
+        "classification": "organism",
+        "component_name": "ScreenHeader",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "layout": "ScrollView | SafeAreaView"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "org-section-001",
+        "hash": "83c11215cb3dea7c4c12ce119c79fd1f5f7f2838354731800e11478be83b597d",
+        "source_file": "auth/landing.html",
+        "tag": "section",
+        "text": "",
+        "class": "hero",
+        "suggested_prefix": "org-section",
+        "duplicate_cdd_ids": [],
+        "classification": "organism",
+        "component_name": "ScreenSection",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "layout": "ScrollView | SafeAreaView"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "org-section-004",
+        "hash": "865b1910038ca5500edfc66ad42537e825a64e28b34d17b1c22f21bb3807ac58",
+        "source_file": "overview/overview.html",
+        "tag": "section",
+        "text": "",
+        "class": "workouts",
+        "suggested_prefix": "org-section",
+        "duplicate_cdd_ids": [],
+        "classification": "organism",
+        "component_name": "ScreenSection",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "layout": "ScrollView | SafeAreaView"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-017",
+        "hash": "88f6c4cf4d56b1c96c3db43844cc19fa91179ad8100cda43d78fd73906a392b3",
+        "source_file": "overview/overview.html",
+        "tag": "h3",
+        "text": "Morning Strength",
+        "class": "",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "HeadingText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-007",
+        "hash": "914e6b1623e40f8ca06c9faa515fad420f5d761fd941e90d999466814e87fb04",
+        "source_file": "auth/login.html",
+        "tag": "p",
+        "text": "Continue your plan and review today's training focus.",
+        "class": "",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "BodyText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "mol-block-001",
+        "hash": "9a3ec3b2d9bbdd1d630606c7759c41271dea350aefb2bc8eff98e37403acceed",
+        "source_file": "overview/overview.html",
+        "tag": "div",
+        "text": "",
+        "class": "",
+        "suggested_prefix": "mol-block",
+        "duplicate_cdd_ids": [],
+        "classification": "molecule",
+        "component_name": "InlineGroup",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "text": "Text",
+          "actions": "Pressable"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-label-002",
+        "hash": "a41994a1c1819d8615ae265a7091bb710c579db01f9dfd4ade36ba4e6a78b98f",
+        "source_file": "auth/login.html",
+        "tag": "label",
+        "text": "Password",
+        "class": "",
+        "suggested_prefix": "atm-label",
+        "duplicate_cdd_ids": [
+          "atm-label-005"
+        ],
+        "classification": "atom",
+        "component_name": "FieldLabel",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-022",
+        "hash": "a7670f90e9ff379474ef89d5b27011ad89fd9ddde9785d20c604c643122e9eeb",
+        "source_file": "overview/overview.html",
+        "tag": "p",
+        "text": "Hips, shoulders, and controlled breathing.",
+        "class": "",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "BodyText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "org-section-003",
+        "hash": "b124d879da6fd5d6b0bc3cc89fc7552fbb4977512b477bd82c940e948e37f4e5",
+        "source_file": "overview/overview.html",
+        "tag": "section",
+        "text": "",
+        "class": "stats",
+        "suggested_prefix": "org-section",
+        "duplicate_cdd_ids": [],
+        "classification": "organism",
+        "component_name": "ScreenSection",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "layout": "ScrollView | SafeAreaView"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-link-006",
+        "hash": "b63db65b799ea279a333f9f08537b8fa4eba3e841e306d02a84bbbb99e53725c",
+        "source_file": "overview/overview.html",
+        "tag": "a",
+        "text": "Plan",
+        "class": "",
+        "suggested_prefix": "atm-link",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "TextLink",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-011",
+        "hash": "b70062d6ee141706fad8cfa816f6390d1fed9b606122a06cb800072c017edfa9",
+        "source_file": "overview/overview.html",
+        "tag": "h1",
+        "text": "Overview",
+        "class": "",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "HeadingText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-001",
+        "hash": "baf328a8d49156ae36196f2f15dcdba1d9517db1d838f5d293f69d6ffe0cdfc1",
+        "source_file": "auth/landing.html",
+        "tag": "span",
+        "text": "Workout Tracker",
+        "class": "badge",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "BadgeText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-010",
+        "hash": "bb08cd6b57adca3d48bc2a5a6e16534952a0bc2b8a2dd5386ebf38001d6c7449",
+        "source_file": "overview/overview.html",
+        "tag": "p",
+        "text": "Today",
+        "class": "",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "BodyText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-btn-003",
+        "hash": "c041573d997d60d50f143e220d1a3428ff5ddb63bfac3ab2eec76f88081a7931",
+        "source_file": "overview/overview.html",
+        "tag": "button",
+        "text": "Start workout",
+        "class": "",
+        "suggested_prefix": "atm-btn",
+        "duplicate_cdd_ids": [
+          "atm-btn-004"
+        ],
+        "classification": "atom",
+        "component_name": "Button",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-label-003",
+        "hash": "c4d66dde1053f6924117ec7085c53ba7b9c840a4bac001dad8a6f23e8fbb4594",
+        "source_file": "auth/registration.html",
+        "tag": "label",
+        "text": "Name",
+        "class": "",
+        "suggested_prefix": "atm-label",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "FieldLabel",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-link-005",
+        "hash": "c5a7ef98230c07499647670b2657f2085fc11253b3a0b385e1edd5a111224a30",
+        "source_file": "overview/overview.html",
+        "tag": "a",
+        "text": "Home",
+        "class": "",
+        "suggested_prefix": "atm-link",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "TextLink",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "org-form-001",
+        "hash": "c763109349067334b767893ef8e15708dee09afd67728362336a4012b94a8b9d",
+        "source_file": "auth/login.html",
+        "tag": "form",
+        "text": "",
+        "class": "",
+        "suggested_prefix": "org-form",
+        "duplicate_cdd_ids": [],
+        "classification": "organism",
+        "component_name": "AuthForm",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "layout": "ScrollView | SafeAreaView"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "org-main-002",
+        "hash": "c785100db0e5f5362b7e0d8ce0c04243d84a52e28cba49def34e1960e429fd1b",
+        "source_file": "auth/login.html",
+        "tag": "main",
+        "text": "",
+        "class": "",
+        "suggested_prefix": "org-main",
+        "duplicate_cdd_ids": [
+          "org-main-003"
+        ],
+        "classification": "organism",
+        "component_name": "ScreenShell",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "layout": "ScrollView | SafeAreaView"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-link-001",
+        "hash": "cabc1770086a83cfd951c0684e63a7dbdeba42ad9acec23d918f13789ece593a",
+        "source_file": "auth/landing.html",
+        "tag": "a",
+        "text": "Create account",
+        "class": "button primary",
+        "suggested_prefix": "atm-link",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "LinkButton",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-008",
+        "hash": "cb8afd102c5bd45a83acd5ce61f8b84c21ae4d66b4c503e609ae990fdfbc5c4a",
+        "source_file": "auth/registration.html",
+        "tag": "h1",
+        "text": "Create your plan",
+        "class": "",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "HeadingText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "mol-block-004",
+        "hash": "d116b9044a6b08a95141bf9fdd2dfe62b897b075f165738ac9770fab407a2f36",
+        "source_file": "overview/overview.html",
+        "tag": "div",
+        "text": "",
+        "class": "row",
+        "suggested_prefix": "mol-block",
+        "duplicate_cdd_ids": [
+          "mol-block-005"
+        ],
+        "classification": "molecule",
+        "component_name": "InlineGroup",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "text": "Text",
+          "actions": "Pressable"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-input-003",
+        "hash": "d1dd201ac4240d45317824722f91fe8740a80be9cb850fb45e3b10379b936114",
+        "source_file": "auth/registration.html",
+        "tag": "input",
+        "text": "",
+        "class": "",
+        "suggested_prefix": "atm-input",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "TextInputFieldControl",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-002",
+        "hash": "d7281ed2d1c1443e8628e7fe657ebd51de97a825c03c638fc9c22ab1da851972",
+        "source_file": "auth/landing.html",
+        "tag": "h1",
+        "text": "Train smarter every week.",
+        "class": "",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "HeadingText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-009",
+        "hash": "e1c0b3fd8db3b91fd303818f9206a78e3925db38815f52e4711fb37e638cab19",
+        "source_file": "auth/registration.html",
+        "tag": "p",
+        "text": "Set up your profile and start tracking your next workout.",
+        "class": "",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "BodyText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-018",
+        "hash": "e53dc78bdd7df153e95db267da36849b003e7df3cf9edf5345a95f57f70493b8",
+        "source_file": "overview/overview.html",
+        "tag": "span",
+        "text": "45 min",
+        "class": "pill",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "BadgeText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-021",
+        "hash": "eb1c8eff55f97def730deb66d9a03043516a26c6ad1434d90d9a7d7eab0c050e",
+        "source_file": "overview/overview.html",
+        "tag": "span",
+        "text": "20 min",
+        "class": "pill",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "BadgeText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-019",
+        "hash": "ee93688166996ec76b69d2ba65c99439e66e5838b3f6a3453df1e74a231819eb",
+        "source_file": "overview/overview.html",
+        "tag": "p",
+        "text": "Squats, presses, and posterior chain accessories.",
+        "class": "",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "BodyText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-link-002",
+        "hash": "f034a01b5d68dcf1b9d37133aed06c521dd5b42657a4afcb4a2fcaf283bb19dc",
+        "source_file": "auth/landing.html",
+        "tag": "a",
+        "text": "Log in",
+        "class": "button secondary",
+        "suggested_prefix": "atm-link",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "LinkButton",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-020",
+        "hash": "f33a8958d56329193da7dfcfc7ad9559e1c72c8dc518a38d8cb740ed3b2ee79d",
+        "source_file": "overview/overview.html",
+        "tag": "h3",
+        "text": "Mobility Reset",
+        "class": "",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "HeadingText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-text-003",
+        "hash": "f37e61cd531188372f22bdfac0ccae2df913b41aa610f68bff5eea993f152277",
+        "source_file": "auth/landing.html",
+        "tag": "p",
+        "text": "Plan focused sessions, track effort, and keep your routine visible from the first screen.",
+        "class": "",
+        "suggested_prefix": "atm-text",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "BodyText",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "mol-block-002",
+        "hash": "f7f14a8a2ea7f0b6d36c7c4463c4fd9842edfe68226efc685a871fc73cb43848",
+        "source_file": "overview/overview.html",
+        "tag": "div",
+        "text": "A",
+        "class": "avatar",
+        "suggested_prefix": "mol-block",
+        "duplicate_cdd_ids": [],
+        "classification": "molecule",
+        "component_name": "InlineGroup",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "text": "Text",
+          "actions": "Pressable"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "mol-field-001",
+        "hash": "f9ee67143993a3875b7586b4a1beb698f8aad93f1688238a9f4e57aa2962a63c",
+        "source_file": "auth/login.html",
+        "tag": "div",
+        "text": "",
+        "class": "field",
+        "suggested_prefix": "mol-field",
+        "duplicate_cdd_ids": [
+          "mol-field-002",
+          "mol-field-003",
+          "mol-field-004",
+          "mol-field-005"
+        ],
+        "classification": "molecule",
+        "component_name": "FormField",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "text": "Text",
+          "actions": "Pressable"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "atm-link-003",
+        "hash": "fee9880aa985ca0278ca8c859420bbcd9d88709312d96d627778816faf275b20",
+        "source_file": "auth/login.html",
+        "tag": "a",
+        "text": "Create account",
+        "class": "button secondary",
+        "suggested_prefix": "atm-link",
+        "duplicate_cdd_ids": [],
+        "classification": "atom",
+        "component_name": "LinkButton",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "Text | Pressable | TextInput | Image | View"
+        },
+        "status": "ready_for_implementation"
+      },
+      {
+        "canonical_cdd_id": "org-form-002",
+        "hash": "ff3d3e3a0e15c7b19db25aaeb082ce792e71becde261f5e593c79eb6ee5c8849",
+        "source_file": "auth/registration.html",
+        "tag": "form",
+        "text": "",
+        "class": "",
+        "suggested_prefix": "org-form",
+        "duplicate_cdd_ids": [],
+        "classification": "organism",
+        "component_name": "AuthForm",
+        "dependencies": [],
+        "react_native_mapping": {
+          "root": "View",
+          "layout": "ScrollView | SafeAreaView"
+        },
+        "status": "ready_for_implementation"
+      }
+    ],
+    "duplicates": [
+      {
+        "canonical_cdd_id": "atm-input-001",
+        "duplicate_cdd_ids": [
+          "atm-input-004"
+        ],
+        "hash": "01961919f91e1cb5b0e760e4f143c5682ea0f2ce4cacb5c98bbc792c9adbf5b1"
+      },
+      {
+        "canonical_cdd_id": "mol-card-002",
+        "duplicate_cdd_ids": [
+          "mol-card-003",
+          "mol-card-004"
+        ],
+        "hash": "0713a6b6636a35af2fa923929c7d0957cf01e488c368a07b6ed405a7370052a2"
+      },
+      {
+        "canonical_cdd_id": "atm-label-001",
+        "duplicate_cdd_ids": [
+          "atm-label-004"
+        ],
+        "hash": "1a7152d936e10467f7a00a74cc921c3e14213f900119a4e6576bb29fb6b793bf"
+      },
+      {
+        "canonical_cdd_id": "mol-card-005",
+        "duplicate_cdd_ids": [
+          "mol-card-006"
+        ],
+        "hash": "3b6c0f5fe8ff9950dd5905f58edce52508c906d256bcc88dd987e546ed5f6269"
+      },
+      {
+        "canonical_cdd_id": "org-header-001",
+        "duplicate_cdd_ids": [
+          "org-header-002"
+        ],
+        "hash": "720067327c0cabc8d694425b0bc996f7d65fd926994a80aab0aa437df034d97b"
+      },
+      {
+        "canonical_cdd_id": "atm-label-002",
+        "duplicate_cdd_ids": [
+          "atm-label-005"
+        ],
+        "hash": "a41994a1c1819d8615ae265a7091bb710c579db01f9dfd4ade36ba4e6a78b98f"
+      },
+      {
+        "canonical_cdd_id": "atm-btn-003",
+        "duplicate_cdd_ids": [
+          "atm-btn-004"
+        ],
+        "hash": "c041573d997d60d50f143e220d1a3428ff5ddb63bfac3ab2eec76f88081a7931"
+      },
+      {
+        "canonical_cdd_id": "org-main-002",
+        "duplicate_cdd_ids": [
+          "org-main-003"
+        ],
+        "hash": "c785100db0e5f5362b7e0d8ce0c04243d84a52e28cba49def34e1960e429fd1b"
+      },
+      {
+        "canonical_cdd_id": "mol-block-004",
+        "duplicate_cdd_ids": [
+          "mol-block-005"
+        ],
+        "hash": "d116b9044a6b08a95141bf9fdd2dfe62b897b075f165738ac9770fab407a2f36"
+      },
+      {
+        "canonical_cdd_id": "mol-field-001",
+        "duplicate_cdd_ids": [
+          "mol-field-002",
+          "mol-field-003",
+          "mol-field-004",
+          "mol-field-005"
+        ],
+        "hash": "f9ee67143993a3875b7586b4a1beb698f8aad93f1688238a9f4e57aa2962a63c"
+      }
+    ]
+  }
+}

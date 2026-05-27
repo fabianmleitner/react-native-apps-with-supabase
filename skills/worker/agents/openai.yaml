@@ -1,0 +1,6 @@
+interface:
+  display_name: "Worker"
+  short_description: "Execute implementation tasks and verify"
+  default_prompt: "Use $worker to implement this assigned task and report the changed files."
+policy:
+  allow_implicit_invocation: true

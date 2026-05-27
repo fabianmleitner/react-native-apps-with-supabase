@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Workout Tracker - Login</title>
+  <style>
+    body { margin: 0; font-family: Inter, Arial, sans-serif; background: #f7f4ee; color: #171a1f; }
+    main { min-height: 100vh; padding: 28px 22px; display: grid; align-content: center; gap: 24px; }
+    h1 { margin: 0; font-size: 34px; }
+    p { color: #555b63; }
+    form { display: grid; gap: 14px; }
+    .field { display: grid; gap: 7px; }
+    label { font-weight: 700; }
+    input { border: 1px solid #d4cec2; border-radius: 8px; padding: 14px; font-size: 16px; background: white; }
+    button, a.button { border: 0; border-radius: 8px; padding: 16px; font-weight: 800; text-align: center; text-decoration: none; }
+    .primary { background: #171a1f; color: white; }
+    .secondary { background: #e6e1d7; color: #171a1f; }
+  </style>
+</head>
+<body>
+  <main data-agent-id="org-main-002">
+    <header data-agent-id="org-header-001">
+      <h1 data-agent-id="atm-text-006">Welcome back</h1>
+      <p data-agent-id="atm-text-007">Continue your plan and review today's training focus.</p>
+    </header>
+    <form data-agent-id="org-form-001">
+      <div class="field" data-agent-id="mol-field-001">
+        <label for="email" data-agent-id="atm-label-001">Email</label>
+        <input id="email" type="email" placeholder="alex@example.com" data-agent-id="atm-input-001">
+      </div>
+      <div class="field" data-agent-id="mol-field-002">
+        <label for="password" data-agent-id="atm-label-002">Password</label>
+        <input id="password" type="password" placeholder="Password" data-agent-id="atm-input-002">
+      </div>
+      <button class="primary" type="submit" data-agent-id="atm-btn-001">Log in</button>
+      <a class="button secondary" href="registration.html" data-agent-id="atm-link-003">Create account</a>
+    </form>
+  </main>
+</body>
+</html>

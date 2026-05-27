@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Workout Tracker - Overview</title>
+  <style>
+    body { margin: 0; font-family: Inter, Arial, sans-serif; background: #f7f4ee; color: #171a1f; }
+    main { min-height: 100vh; padding: 24px 18px 88px; display: grid; gap: 18px; }
+    header { display: flex; align-items: center; justify-content: space-between; }
+    h1 { margin: 0; font-size: 30px; }
+    h2 { margin: 0; font-size: 20px; }
+    p { margin: 0; color: #555b63; }
+    .avatar { width: 42px; height: 42px; border-radius: 50%; background: #d8f36a; display: grid; place-items: center; font-weight: 900; }
+    .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .stat-card, .workout-card { background: #fff; border-radius: 8px; padding: 14px; box-shadow: 0 8px 22px rgba(0,0,0,.07); }
+    .stat-card strong { display: block; font-size: 22px; }
+    .workouts { display: grid; gap: 12px; }
+    .workout-card { display: grid; gap: 10px; }
+    .row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    .pill { border-radius: 999px; background: #e6e1d7; padding: 6px 10px; font-weight: 700; font-size: 12px; }
+    button { border: 0; border-radius: 8px; padding: 12px 14px; font-weight: 800; background: #171a1f; color: white; }
+    nav { position: fixed; left: 0; right: 0; bottom: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; padding: 12px 18px; background: #fff; border-top: 1px solid #e6e1d7; }
+    nav a { text-align: center; text-decoration: none; color: #171a1f; font-weight: 800; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <p>Today</p>
+        <h1>Overview</h1>
+      </div>
+      <div class="avatar">A</div>
+    </header>
+    <section class="stats">
+      <article class="stat-card">
+        <strong>42</strong>
+        <p>Minutes</p>
+      </article>
+      <article class="stat-card">
+        <strong>3</strong>
+        <p>Sets</p>
+      </article>
+      <article class="stat-card">
+        <strong>87%</strong>
+        <p>Recovery</p>
+      </article>
+    </section>
+    <section class="workouts">
+      <div class="row">
+        <h2>Next workouts</h2>
+        <span class="pill">Week 12</span>
+      </div>
+      <article class="workout-card">
+        <div class="row">
+          <h3>Morning Strength</h3>
+          <span class="pill">45 min</span>
+        </div>
+        <p>Squats, presses, and posterior chain accessories.</p>
+        <button type="button">Start workout</button>
+      </article>
+      <article class="workout-card">
+        <div class="row">
+          <h3>Mobility Reset</h3>
+          <span class="pill">20 min</span>
+        </div>
+        <p>Hips, shoulders, and controlled breathing.</p>
+        <button type="button">Start workout</button>
+      </article>
+    </section>
+  </main>
+  <nav>
+    <a href="../overview/overview.html">Home</a>
+    <a href="../auth/landing.html">Plan</a>
+    <a href="../auth/login.html">Profile</a>
+  </nav>
+</body>
+</html>

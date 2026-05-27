@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Workout Tracker - Overview</title>
+  <style>
+    body { margin: 0; font-family: Inter, Arial, sans-serif; background: #f7f4ee; color: #171a1f; }
+    main { min-height: 100vh; padding: 24px 18px 88px; display: grid; gap: 18px; }
+    header { display: flex; align-items: center; justify-content: space-between; }
+    h1 { margin: 0; font-size: 30px; }
+    h2 { margin: 0; font-size: 20px; }
+    p { margin: 0; color: #555b63; }
+    .avatar { width: 42px; height: 42px; border-radius: 50%; background: #d8f36a; display: grid; place-items: center; font-weight: 900; }
+    .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .stat-card, .workout-card { background: #fff; border-radius: 8px; padding: 14px; box-shadow: 0 8px 22px rgba(0,0,0,.07); }
+    .stat-card strong { display: block; font-size: 22px; }
+    .workouts { display: grid; gap: 12px; }
+    .workout-card { display: grid; gap: 10px; }
+    .row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    .pill { border-radius: 999px; background: #e6e1d7; padding: 6px 10px; font-weight: 700; font-size: 12px; }
+    button { border: 0; border-radius: 8px; padding: 12px 14px; font-weight: 800; background: #171a1f; color: white; }
+    nav { position: fixed; left: 0; right: 0; bottom: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; padding: 12px 18px; background: #fff; border-top: 1px solid #e6e1d7; }
+    nav a { text-align: center; text-decoration: none; color: #171a1f; font-weight: 800; }
+  </style>
+</head>
+<body>
+  <main data-agent-id="org-main-004">
+    <header data-agent-id="org-header-003">
+      <div data-agent-id="mol-block-001">
+        <p data-agent-id="atm-text-010">Today</p>
+        <h1 data-agent-id="atm-text-011">Overview</h1>
+      </div>
+      <div class="avatar" data-agent-id="mol-block-002">A</div>
+    </header>
+    <section class="stats" data-agent-id="org-section-003">
+      <article class="stat-card" data-agent-id="mol-card-002">
+        <strong>42</strong>
+        <p data-agent-id="atm-text-012">Minutes</p>
+      </article>
+      <article class="stat-card" data-agent-id="mol-card-003">
+        <strong>3</strong>
+        <p data-agent-id="atm-text-013">Sets</p>
+      </article>
+      <article class="stat-card" data-agent-id="mol-card-004">
+        <strong>87%</strong>
+        <p data-agent-id="atm-text-014">Recovery</p>
+      </article>
+    </section>
+    <section class="workouts" data-agent-id="org-section-004">
+      <div class="row" data-agent-id="mol-block-003">
+        <h2 data-agent-id="atm-text-015">Next workouts</h2>
+        <span class="pill" data-agent-id="atm-text-016">Week 12</span>
+      </div>
+      <article class="workout-card" data-agent-id="mol-card-005">
+        <div class="row" data-agent-id="mol-block-004">
+          <h3 data-agent-id="atm-text-017">Morning Strength</h3>
+          <span class="pill" data-agent-id="atm-text-018">45 min</span>
+        </div>
+        <p data-agent-id="atm-text-019">Squats, presses, and posterior chain accessories.</p>
+        <button type="button" data-agent-id="atm-btn-003">Start workout</button>
+      </article>
+      <article class="workout-card" data-agent-id="mol-card-006">
+        <div class="row" data-agent-id="mol-block-005">
+          <h3 data-agent-id="atm-text-020">Mobility Reset</h3>
+          <span class="pill" data-agent-id="atm-text-021">20 min</span>
+        </div>
+        <p data-agent-id="atm-text-022">Hips, shoulders, and controlled breathing.</p>
+        <button type="button" data-agent-id="atm-btn-004">Start workout</button>
+      </article>
+    </section>
+  </main>
+  <nav data-agent-id="org-nav-001">
+    <a href="../overview/overview.html" data-agent-id="atm-link-005">Home</a>
+    <a href="../auth/landing.html" data-agent-id="atm-link-006">Plan</a>
+    <a href="../auth/login.html" data-agent-id="atm-link-007">Profile</a>
+  </nav>
+</body>
+</html>

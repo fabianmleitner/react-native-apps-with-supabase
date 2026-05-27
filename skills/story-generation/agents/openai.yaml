@@ -1,0 +1,6 @@
+interface:
+  display_name: "Story Generation"
+  short_description: "Create user stories and acceptance criteria"
+  default_prompt: "Use $story-generation to turn these requirements into user stories."
+policy:
+  allow_implicit_invocation: true

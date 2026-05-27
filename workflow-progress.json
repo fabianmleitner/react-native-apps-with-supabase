@@ -1,0 +1,964 @@
+{
+  "schema_version": "1.0",
+  "app_name": "workout-tracker",
+  "target_framework": "react-native",
+  "current_state": "consolidated",
+  "last_run": "2026-05-20T09:12:48Z",
+  "source_hashes": {
+    "auth/landing.html": "5b6c0c057dff7a0c5f0dc926e9fcb627ddd8fbbd4097c7e36e6022fcbd932156",
+    "auth/login.html": "2f71e0d3c845cf74559922480a269ca49a1b92dadb7e0ba13704c24a3db137b2",
+    "auth/registration.html": "4a2a354cef12be63c7f9e0b4e5074e5cc58871c0a846026ed78130a3d70d80ee",
+    "overview/overview.html": "565530ea7aa3ad2659804ec6ba94c930a0112f3af43793d4d1e0922a910cd120"
+  },
+  "changed_files": [
+    "auth/landing.html",
+    "auth/login.html",
+    "auth/registration.html",
+    "overview/overview.html"
+  ],
+  "removed_files": [],
+  "checkpoint_comment": "Dependency tracking stores which molecule/organism references each atom. When a source hash changes, only affected canonical components and their dependents need classification or React Native regeneration; unchanged hashes stay reusable.",
+  "dependencies": {
+    "atm-input-001": {
+      "depends_on": [],
+      "invalidates": [
+        "atm-input-004"
+      ],
+      "status": "ready_for_implementation"
+    },
+    "mol-block-003": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "mol-card-002": {
+      "depends_on": [],
+      "invalidates": [
+        "mol-card-003",
+        "mol-card-004"
+      ],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-014": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-link-004": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-input-005": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-label-001": {
+      "depends_on": [],
+      "invalidates": [
+        "atm-label-004"
+      ],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-006": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-btn-002": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "org-nav-001": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-link-007": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-005": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-013": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-016": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-015": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "mol-card-005": {
+      "depends_on": [],
+      "invalidates": [
+        "mol-card-006"
+      ],
+      "status": "ready_for_implementation"
+    },
+    "org-main-004": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-input-002": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-004": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-btn-001": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "org-section-002": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-012": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "org-main-001": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "mol-card-001": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "org-header-001": {
+      "depends_on": [],
+      "invalidates": [
+        "org-header-002"
+      ],
+      "status": "ready_for_implementation"
+    },
+    "org-header-003": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "org-section-001": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "org-section-004": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-017": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-007": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "mol-block-001": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-label-002": {
+      "depends_on": [],
+      "invalidates": [
+        "atm-label-005"
+      ],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-022": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "org-section-003": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-link-006": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-011": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-001": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-010": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-btn-003": {
+      "depends_on": [],
+      "invalidates": [
+        "atm-btn-004"
+      ],
+      "status": "ready_for_implementation"
+    },
+    "atm-label-003": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-link-005": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "org-form-001": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "org-main-002": {
+      "depends_on": [],
+      "invalidates": [
+        "org-main-003"
+      ],
+      "status": "ready_for_implementation"
+    },
+    "atm-link-001": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-008": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "mol-block-004": {
+      "depends_on": [],
+      "invalidates": [
+        "mol-block-005"
+      ],
+      "status": "ready_for_implementation"
+    },
+    "atm-input-003": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-002": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-009": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-018": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-021": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-019": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-link-002": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-020": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "atm-text-003": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "mol-block-002": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "mol-field-001": {
+      "depends_on": [],
+      "invalidates": [
+        "mol-field-002",
+        "mol-field-003",
+        "mol-field-004",
+        "mol-field-005"
+      ],
+      "status": "ready_for_implementation"
+    },
+    "atm-link-003": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    },
+    "org-form-002": {
+      "depends_on": [],
+      "invalidates": [],
+      "status": "ready_for_implementation"
+    }
+  },
+  "next_actions": [
+    "Hand cdd-output/deduplicated-components.json to the React Native implementation agent.",
+    "Regenerate only changed dependency branches after later prototype hash changes."
+  ],
+  "components": [
+    {
+      "canonical_cdd_id": "atm-input-001",
+      "component_name": "TextInputFieldControl",
+      "classification": "atom",
+      "source_file": "auth/login.html",
+      "duplicate_cdd_ids": [
+        "atm-input-004"
+      ],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "mol-block-003",
+      "component_name": "InlineGroup",
+      "classification": "molecule",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "mol-card-002",
+      "component_name": "StatCard",
+      "classification": "molecule",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [
+        "mol-card-003",
+        "mol-card-004"
+      ],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-014",
+      "component_name": "BodyText",
+      "classification": "atom",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-link-004",
+      "component_name": "LinkButton",
+      "classification": "atom",
+      "source_file": "auth/registration.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-input-005",
+      "component_name": "TextInputFieldControl",
+      "classification": "atom",
+      "source_file": "auth/registration.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-label-001",
+      "component_name": "FieldLabel",
+      "classification": "atom",
+      "source_file": "auth/login.html",
+      "duplicate_cdd_ids": [
+        "atm-label-004"
+      ],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-006",
+      "component_name": "HeadingText",
+      "classification": "atom",
+      "source_file": "auth/login.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-btn-002",
+      "component_name": "Button",
+      "classification": "atom",
+      "source_file": "auth/registration.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "org-nav-001",
+      "component_name": "BottomNavigation",
+      "classification": "organism",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-link-007",
+      "component_name": "TextLink",
+      "classification": "atom",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-005",
+      "component_name": "BodyText",
+      "classification": "atom",
+      "source_file": "auth/landing.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-013",
+      "component_name": "BodyText",
+      "classification": "atom",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-016",
+      "component_name": "BadgeText",
+      "classification": "atom",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-015",
+      "component_name": "HeadingText",
+      "classification": "atom",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "mol-card-005",
+      "component_name": "WorkoutCard",
+      "classification": "molecule",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [
+        "mol-card-006"
+      ],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "org-main-004",
+      "component_name": "ScreenShell",
+      "classification": "organism",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-input-002",
+      "component_name": "TextInputFieldControl",
+      "classification": "atom",
+      "source_file": "auth/login.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-004",
+      "component_name": "HeadingText",
+      "classification": "atom",
+      "source_file": "auth/landing.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-btn-001",
+      "component_name": "Button",
+      "classification": "atom",
+      "source_file": "auth/login.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "org-section-002",
+      "component_name": "ScreenSection",
+      "classification": "organism",
+      "source_file": "auth/landing.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-012",
+      "component_name": "BodyText",
+      "classification": "atom",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "org-main-001",
+      "component_name": "ScreenShell",
+      "classification": "organism",
+      "source_file": "auth/landing.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "mol-card-001",
+      "component_name": "BenefitCard",
+      "classification": "molecule",
+      "source_file": "auth/landing.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "org-header-001",
+      "component_name": "ScreenHeader",
+      "classification": "organism",
+      "source_file": "auth/login.html",
+      "duplicate_cdd_ids": [
+        "org-header-002"
+      ],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "org-header-003",
+      "component_name": "ScreenHeader",
+      "classification": "organism",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "org-section-001",
+      "component_name": "ScreenSection",
+      "classification": "organism",
+      "source_file": "auth/landing.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "org-section-004",
+      "component_name": "ScreenSection",
+      "classification": "organism",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-017",
+      "component_name": "HeadingText",
+      "classification": "atom",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-007",
+      "component_name": "BodyText",
+      "classification": "atom",
+      "source_file": "auth/login.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "mol-block-001",
+      "component_name": "InlineGroup",
+      "classification": "molecule",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-label-002",
+      "component_name": "FieldLabel",
+      "classification": "atom",
+      "source_file": "auth/login.html",
+      "duplicate_cdd_ids": [
+        "atm-label-005"
+      ],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-022",
+      "component_name": "BodyText",
+      "classification": "atom",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "org-section-003",
+      "component_name": "ScreenSection",
+      "classification": "organism",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-link-006",
+      "component_name": "TextLink",
+      "classification": "atom",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-011",
+      "component_name": "HeadingText",
+      "classification": "atom",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-001",
+      "component_name": "BadgeText",
+      "classification": "atom",
+      "source_file": "auth/landing.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-010",
+      "component_name": "BodyText",
+      "classification": "atom",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-btn-003",
+      "component_name": "Button",
+      "classification": "atom",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [
+        "atm-btn-004"
+      ],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-label-003",
+      "component_name": "FieldLabel",
+      "classification": "atom",
+      "source_file": "auth/registration.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-link-005",
+      "component_name": "TextLink",
+      "classification": "atom",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "org-form-001",
+      "component_name": "AuthForm",
+      "classification": "organism",
+      "source_file": "auth/login.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "org-main-002",
+      "component_name": "ScreenShell",
+      "classification": "organism",
+      "source_file": "auth/login.html",
+      "duplicate_cdd_ids": [
+        "org-main-003"
+      ],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-link-001",
+      "component_name": "LinkButton",
+      "classification": "atom",
+      "source_file": "auth/landing.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-008",
+      "component_name": "HeadingText",
+      "classification": "atom",
+      "source_file": "auth/registration.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "mol-block-004",
+      "component_name": "InlineGroup",
+      "classification": "molecule",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [
+        "mol-block-005"
+      ],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-input-003",
+      "component_name": "TextInputFieldControl",
+      "classification": "atom",
+      "source_file": "auth/registration.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-002",
+      "component_name": "HeadingText",
+      "classification": "atom",
+      "source_file": "auth/landing.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-009",
+      "component_name": "BodyText",
+      "classification": "atom",
+      "source_file": "auth/registration.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-018",
+      "component_name": "BadgeText",
+      "classification": "atom",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-021",
+      "component_name": "BadgeText",
+      "classification": "atom",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-019",
+      "component_name": "BodyText",
+      "classification": "atom",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-link-002",
+      "component_name": "LinkButton",
+      "classification": "atom",
+      "source_file": "auth/landing.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-020",
+      "component_name": "HeadingText",
+      "classification": "atom",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-text-003",
+      "component_name": "BodyText",
+      "classification": "atom",
+      "source_file": "auth/landing.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "mol-block-002",
+      "component_name": "InlineGroup",
+      "classification": "molecule",
+      "source_file": "overview/overview.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "mol-field-001",
+      "component_name": "FormField",
+      "classification": "molecule",
+      "source_file": "auth/login.html",
+      "duplicate_cdd_ids": [
+        "mol-field-002",
+        "mol-field-003",
+        "mol-field-004",
+        "mol-field-005"
+      ],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "atm-link-003",
+      "component_name": "LinkButton",
+      "classification": "atom",
+      "source_file": "auth/login.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "org-form-002",
+      "component_name": "AuthForm",
+      "classification": "organism",
+      "source_file": "auth/registration.html",
+      "duplicate_cdd_ids": [],
+      "dependencies": [],
+      "status": "ready_for_implementation"
+    }
+  ],
+  "implementation_targets": {
+    "atm-input-001": "packages/shared-components/src/design-system/atoms/TextInputFieldControl.tsx",
+    "mol-block-003": "packages/shared-components/src/design-system/molecules/InlineGroup.tsx",
+    "mol-card-002": "packages/shared-components/src/design-system/molecules/StatCard.tsx",
+    "atm-text-014": "packages/shared-components/src/design-system/atoms/BodyText.tsx",
+    "atm-link-004": "packages/shared-components/src/design-system/atoms/LinkButton.tsx",
+    "atm-input-005": "packages/shared-components/src/design-system/atoms/TextInputFieldControl.tsx",
+    "atm-label-001": "packages/shared-components/src/design-system/atoms/FieldLabel.tsx",
+    "atm-text-006": "packages/shared-components/src/design-system/atoms/HeadingText.tsx",
+    "atm-btn-002": "packages/shared-components/src/design-system/atoms/Button.tsx",
+    "org-nav-001": "packages/shared-components/src/design-system/organisms/BottomNavigation.tsx",
+    "atm-link-007": "packages/shared-components/src/design-system/atoms/TextLink.tsx",
+    "atm-text-005": "packages/shared-components/src/design-system/atoms/BodyText.tsx",
+    "atm-text-013": "packages/shared-components/src/design-system/atoms/BodyText.tsx",
+    "atm-text-016": "packages/shared-components/src/design-system/atoms/BadgeText.tsx",
+    "atm-text-015": "packages/shared-components/src/design-system/atoms/HeadingText.tsx",
+    "mol-card-005": "packages/shared-components/src/design-system/molecules/WorkoutCard.tsx",
+    "org-main-004": "packages/shared-components/src/design-system/organisms/ScreenShell.tsx",
+    "atm-input-002": "packages/shared-components/src/design-system/atoms/TextInputFieldControl.tsx",
+    "atm-text-004": "packages/shared-components/src/design-system/atoms/HeadingText.tsx",
+    "atm-btn-001": "packages/shared-components/src/design-system/atoms/Button.tsx",
+    "org-section-002": "packages/shared-components/src/design-system/organisms/ScreenSection.tsx",
+    "atm-text-012": "packages/shared-components/src/design-system/atoms/BodyText.tsx",
+    "org-main-001": "packages/shared-components/src/design-system/organisms/ScreenShell.tsx",
+    "mol-card-001": "packages/shared-components/src/design-system/molecules/BenefitCard.tsx",
+    "org-header-001": "packages/shared-components/src/design-system/organisms/ScreenHeader.tsx",
+    "org-header-003": "packages/shared-components/src/design-system/organisms/ScreenHeader.tsx",
+    "org-section-001": "packages/shared-components/src/design-system/organisms/ScreenSection.tsx",
+    "org-section-004": "packages/shared-components/src/design-system/organisms/ScreenSection.tsx",
+    "atm-text-017": "packages/shared-components/src/design-system/atoms/HeadingText.tsx",
+    "atm-text-007": "packages/shared-components/src/design-system/atoms/BodyText.tsx",
+    "mol-block-001": "packages/shared-components/src/design-system/molecules/InlineGroup.tsx",
+    "atm-label-002": "packages/shared-components/src/design-system/atoms/FieldLabel.tsx",
+    "atm-text-022": "packages/shared-components/src/design-system/atoms/BodyText.tsx",
+    "org-section-003": "packages/shared-components/src/design-system/organisms/ScreenSection.tsx",
+    "atm-link-006": "packages/shared-components/src/design-system/atoms/TextLink.tsx",
+    "atm-text-011": "packages/shared-components/src/design-system/atoms/HeadingText.tsx",
+    "atm-text-001": "packages/shared-components/src/design-system/atoms/BadgeText.tsx",
+    "atm-text-010": "packages/shared-components/src/design-system/atoms/BodyText.tsx",
+    "atm-btn-003": "packages/shared-components/src/design-system/atoms/Button.tsx",
+    "atm-label-003": "packages/shared-components/src/design-system/atoms/FieldLabel.tsx",
+    "atm-link-005": "packages/shared-components/src/design-system/atoms/TextLink.tsx",
+    "org-form-001": "packages/shared-components/src/design-system/organisms/AuthForm.tsx",
+    "org-main-002": "packages/shared-components/src/design-system/organisms/ScreenShell.tsx",
+    "atm-link-001": "packages/shared-components/src/design-system/atoms/LinkButton.tsx",
+    "atm-text-008": "packages/shared-components/src/design-system/atoms/HeadingText.tsx",
+    "mol-block-004": "packages/shared-components/src/design-system/molecules/InlineGroup.tsx",
+    "atm-input-003": "packages/shared-components/src/design-system/atoms/TextInputFieldControl.tsx",
+    "atm-text-002": "packages/shared-components/src/design-system/atoms/HeadingText.tsx",
+    "atm-text-009": "packages/shared-components/src/design-system/atoms/BodyText.tsx",
+    "atm-text-018": "packages/shared-components/src/design-system/atoms/BadgeText.tsx",
+    "atm-text-021": "packages/shared-components/src/design-system/atoms/BadgeText.tsx",
+    "atm-text-019": "packages/shared-components/src/design-system/atoms/BodyText.tsx",
+    "atm-link-002": "packages/shared-components/src/design-system/atoms/LinkButton.tsx",
+    "atm-text-020": "packages/shared-components/src/design-system/atoms/HeadingText.tsx",
+    "atm-text-003": "packages/shared-components/src/design-system/atoms/BodyText.tsx",
+    "mol-block-002": "packages/shared-components/src/design-system/molecules/InlineGroup.tsx",
+    "mol-field-001": "packages/shared-components/src/design-system/molecules/FormField.tsx",
+    "atm-link-003": "packages/shared-components/src/design-system/atoms/LinkButton.tsx",
+    "org-form-002": "packages/shared-components/src/design-system/organisms/AuthForm.tsx"
+  }
+}

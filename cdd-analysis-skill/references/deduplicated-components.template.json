@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-20T00:00:00Z",
+  "prototype_dir": "docs/ui/prototypes/workout-tracker",
+  "files": [
+    {
+      "file": "overview/overview.html",
+      "file_hash": "sha256-placeholder",
+      "marked_file_hash": "sha256-placeholder",
+      "elements": [
+        {
+          "cdd_id": "mol-card-001",
+          "source_file": "overview/overview.html",
+          "tag": "article",
+          "text": "Morning Strength",
+          "class": "workout-card",
+          "role": "",
+          "hash": "sha256-placeholder",
+          "child_tags": ["h3", "p", "button"],
+          "suggested_prefix": "mol-card"
+        }
+      ]
+    }
+  ],
+  "deduplication": {
+    "components": [
+      {
+        "canonical_cdd_id": "mol-card-001",
+        "component_name": "WorkoutCard",
+        "classification": "molecule",
+        "source_file": "overview/overview.html",
+        "tag": "article",
+        "duplicate_cdd_ids": ["mol-card-002"],
+        "dependencies": ["atm-text-001", "atm-btn-001"],
+        "react_native_mapping": {
+          "root": "View",
+          "text": "Text",
+          "actions": "Pressable"
+        },
+        "status": "ready_for_implementation"
+      }
+    ],
+    "duplicates": [
+      {
+        "canonical_cdd_id": "mol-card-001",
+        "duplicate_cdd_ids": ["mol-card-002"],
+        "hash": "sha256-placeholder"
+      }
+    ]
+  }
+}

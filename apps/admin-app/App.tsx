@@ -53,7 +53,7 @@ export default function App() {
       return null;
     }
 
-    return `${supabaseUrl}/functions/v1/client-connection-check`;
+    return `${supabaseUrl}/auth/v1/settings`;
   }, []);
 
   useEffect(() => {
@@ -80,6 +80,8 @@ export default function App() {
       return;
     }
 
+    const supabaseAnonKey = process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY;
+
     try {
       setHealthStatus('loading');
       setHealthMessage('Verbindung wird geprueft...');
@@ -87,20 +89,26 @@ export default function App() {
       const response = await fetch(healthEndpoint, {
         method: 'GET',
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
+          ...(supabaseAnonKey
+            ? {
+                apikey: supabaseAnonKey,
+                Authorization: `Bearer ${supabaseAnonKey}`
+              }
+            : {})
         }
       });
 
-      const payload = (await response.json()) as { ok?: boolean; message?: string; error?: string };
+      const payload = (await response.json()) as { ok?: boolean; message?: string; error?: string; code?: string };
 
-      if (!response.ok || !payload.ok) {
+      if (!response.ok || payload.ok === false) {
         setHealthStatus('unhealthy');
-        setHealthMessage(payload.error ?? 'Health-Check fehlgeschlagen.');
+        setHealthMessage(payload.error ?? payload.message ?? payload.code ?? `Health-Check fehlgeschlagen. HTTP ${response.status}`);
         return;
       }
 
       setHealthStatus('healthy');
-      setHealthMessage(payload.message ?? 'Verbindung zur Edge Function ist gesund.');
+      setHealthMessage(payload.message ?? 'Verbindung zur Supabase API ist gesund.');
     } catch {
       setHealthStatus('unhealthy');
       setHealthMessage('Verbindung konnte nicht hergestellt werden.');
@@ -139,7 +147,7 @@ export default function App() {
         ) : (
           <View style={styles.healthCard}>
             <Text style={styles.heading}>Health Page</Text>
-            <Text style={styles.subheading}>Prueft die Erreichbarkeit der Supabase Edge Function vom Admin-Client.</Text>
+            <Text style={styles.subheading}>Prueft die Erreichbarkeit der Supabase API vom Admin-Client.</Text>
             <Text style={styles.label}>Endpoint</Text>
             <Text style={styles.endpointText}>{healthEndpoint ?? 'Nicht konfiguriert'}</Text>
             <View style={styles.statusRow}>

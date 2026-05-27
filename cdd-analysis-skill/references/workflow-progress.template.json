@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "app_name": "workout-tracker",
+  "target_framework": "react-native",
+  "current_state": "consolidated",
+  "source_hashes": {
+    "auth/landing.html": "sha256-placeholder",
+    "auth/registration.html": "sha256-placeholder",
+    "auth/login.html": "sha256-placeholder",
+    "overview/overview.html": "sha256-placeholder"
+  },
+  "changed_files": [],
+  "removed_files": [],
+  "checkpoint_comment": "Dependency tracking stores atom-to-molecule-to-organism relationships. If an atom changes, only its dependent molecules and organisms are marked for regeneration; unchanged branches remain reusable.",
+  "dependencies": {
+    "atm-btn-001": {
+      "depends_on": [],
+      "invalidates": ["mol-card-001", "org-section-001"],
+      "status": "ready"
+    },
+    "mol-card-001": {
+      "depends_on": ["atm-text-001", "atm-btn-001"],
+      "invalidates": ["org-section-001"],
+      "status": "ready"
+    },
+    "org-section-001": {
+      "depends_on": ["mol-card-001"],
+      "invalidates": [],
+      "status": "ready"
+    }
+  },
+  "components": [
+    {
+      "canonical_cdd_id": "atm-btn-001",
+      "component_name": "Button",
+      "classification": "atom",
+      "status": "ready_for_implementation"
+    },
+    {
+      "canonical_cdd_id": "mol-card-001",
+      "component_name": "WorkoutCard",
+      "classification": "molecule",
+      "dependencies": ["atm-text-001", "atm-btn-001"],
+      "status": "ready_for_implementation"
+    }
+  ],
+  "implementation_targets": {
+    "atm-btn-001": "packages/shared-components/src/design-system/atoms/Button.tsx",
+    "mol-card-001": "packages/shared-components/src/design-system/molecules/WorkoutCard.tsx"
+  }
+}
